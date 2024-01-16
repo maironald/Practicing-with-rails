@@ -17,7 +17,7 @@ services:
         fromDatabase:
           name: user01
           property: connectionString
-      - key: RAILS_MASTER_KEY
+      - key: 3a8c8d682e09d0308f61076c78129ae0
         sync: false
       - key: WEB_CONCURRENCY
         value: 2 # sensible default
