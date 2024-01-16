@@ -76,7 +76,7 @@ test:
   #
   production:
     <<: *default
-    url: 'postgres://user01_user:BFOeKumWN59M9ihwCyjQwcX0EGGZeVnF@dpg-cmiu9mvqd2ns7386a1l0-a.oregon-postgres.render.com/user01'
+    url: 'postgres://user01_user:BFOeKumWN59M9ihwCyjQwcX0EGGZeVnF@dpg-cmiu9mvqd2ns7386a1l0-a/user01'
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
