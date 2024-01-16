@@ -12,6 +12,8 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
+  ENV["DATABASE_URL"] = "postgres://user01_user:BFOeKumWN59M9ihwCyjQwcX0EGGZeVnF@dpg-cmiu9mvqd2ns7386a1l0-a.oregon-postgres.render.com/user01"
+
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local = false
   config.action_controller.perform_caching = true
