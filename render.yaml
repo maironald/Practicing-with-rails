@@ -13,7 +13,7 @@ services:
     # preDeployCommand: "./bin/rails db:migrate" # preDeployCommand only available on paid instance types
     startCommand: './bin/rails server'
     envVars:
-      - key: DATABASE_URL
+      - key: <%= ENV["DATABASE_URL"] %>
         fromDatabase:
           name: user01
           property: connectionString
