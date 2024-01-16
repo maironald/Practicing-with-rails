@@ -13,7 +13,7 @@ services:
     # preDeployCommand: "./bin/rails db:migrate" # preDeployCommand only available on paid instance types
     startCommand: './bin/rails server'
     envVars:
-      - key: <%= ENV["DATABASE_URL"] %>
+      - key: 'postgres://user01_user:BFOeKumWN59M9ihwCyjQwcX0EGGZeVnF@dpg-cmiu9mvqd2ns7386a1l0-a.oregon-postgres.render.com/user01'
         fromDatabase:
           name: user01
           property: connectionString
